@@ -1,14 +1,7 @@
 /* ---------------------------------------------------------------
-   Partage entre appareils (façon SARIC), via GitHub — sans Firebase.
-   Renseignez le dépôt qui STOCKERA les données partagées.
-   Laissez vide pour utiliser l'app en mode local seul.
-
-   IMPORTANT : ne mettez PAS votre jeton ici (il deviendrait public).
-   Le jeton se saisit dans l'app (réglages) et reste sur l'appareil.
+   Enregistrement en ligne (façon SARIC), via Google Apps Script.
+   Collez l'URL de VOTRE web-app (elle se termine par /exec).
    --------------------------------------------------------------- */
 window.AGATHE_CONFIG = {
-  GITHUB_OWNER: "",          // votre pseudo GitHub (ex. "antoine-briz")
-  GITHUB_REPO:  "",          // dépôt qui stocke les données (idéalement PRIVÉ)
-  GITHUB_BRANCH: "main",     // ou "master"
-  GITHUB_PATH:  "agathe.json" // nom du fichier de données dans ce dépôt
+  SAVE_URL: "https://script.google.com/macros/s/AKfycby3uuUp2Cn4ze9JWhqJt4RA8Bc6sYwfWnJmqpw9MlLGB-lu3bmC8m6LWMd54C8M233k/exec"   // ex. https://script.google.com/macros/s/AKfyc.../exec
 };
